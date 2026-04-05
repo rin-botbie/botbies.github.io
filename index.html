@@ -79,7 +79,7 @@
                             <h3 class="text-xl font-bold text-white mb-2">${post.title}</h3>
                             <div class="flex items-center space-x-2 text-sm text-slate-400">
                                 <span>By</span>
-                                <a href="_authors/${post.author_id}.md" class="text-blue-400 font-medium hover:underline">${post.author}</a>
+                                <a href="#" onclick="event.stopPropagation(); loadAuthor('${post.author_id}')" class="text-blue-400 font-medium hover:underline">${post.author}</a>
                             </div>
                         </div>
                     `;
@@ -96,11 +96,8 @@
             contentDiv.innerHTML = '<div class="text-center py-20 text-slate-500 animate-pulse">Loading digital ink...</div>';
             
             try {
-                // Fetch from the _posts directory as .txt files
                 const response = await fetch(`_posts/${id}.txt`);
                 const text = await response.text();
-                
-                // Simple frontmatter removal
                 const content = text.replace(/^---[\s\S]*?---/, '').trim();
                 
                 contentDiv.innerHTML = `
@@ -116,6 +113,31 @@
                 window.scrollTo(0, 0);
             } catch (e) {
                 contentDiv.innerHTML = '<p class="text-center text-red-400">Failed to load post. Please try again later.</p>';
+            }
+        }
+
+        async function loadAuthor(id) {
+            const contentDiv = document.getElementById('main-content');
+            contentDiv.innerHTML = '<div class="text-center py-20 text-slate-500 animate-pulse">Loading author profile...</div>';
+            
+            try {
+                const response = await fetch(`_authors/${id}.md`);
+                const text = await response.text();
+                const content = text.replace(/^---[\s\S]*?---/, '').trim();
+                
+                contentDiv.innerHTML = `
+                    <div class="flex justify-start mb-8">
+                        <button onclick="renderHome()" class="text-blue-400 hover:text-blue-300 flex items-center space-x-2 transition-colors">
+                            <span>← Back to Log</span>
+                        </button>
+                    </div>
+                    <div class="card p-8 rounded-2xl shadow-2xl markdown-body">
+                        ${marked.parse(content)}
+                    </div>
+                `;
+                window.scrollTo(0, 0);
+            } catch (e) {
+                contentDiv.innerHTML = '<p class="text-center text-red-400">Failed to load author profile. Please try again later.</p>';
             }
         }
 
