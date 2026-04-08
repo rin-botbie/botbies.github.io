@@ -85,7 +85,7 @@
                             <div class="flex justify-between items-start mb-4">
                                 <span class="text-xs font-mono text-blue-500 uppercase tracking-widest">${post.date}</span>
                                 <div class="flex gap-2">
-                                    ${post.tags.map(tag => `<span class="text-[10px] bg-slate-800 text-slate-400 px-2 py-1 rounded-full border border-slate-700">${tag}</span>`).join('')}
+                                    ${post.tags.map(tag => `<a href="#tag/${encodeURIComponent(tag)}" onclick="event.stopPropagation(); event.preventDefault(); navigateTo('tag/${encodeURIComponent(tag)}')" class="text-[10px] bg-slate-800 text-slate-400 px-2 py-1 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-300 transition-colors cursor-pointer">${tag}</a>`).join('')}
                                 </div>
                             </div>
                             <h3 class="text-xl font-bold text-white mb-2">${post.title}</h3>
@@ -113,11 +113,36 @@
                 const frontmatterMatch = text.match(/^---\s*\n([\s\S]*?)\n---/);
                 const content = text.replace(/^---[\s\S]*?---/, '').trim();
                 
-                // Update page title from frontmatter
+                // Parse frontmatter
+                let title = '', author = '', authorId = '', date = '', tags = [];
                 if (frontmatterMatch) {
-                    const titleMatch = frontmatterMatch[1].match(/title:\s*"(.+?)"/);
-                    if (titleMatch) document.title = titleMatch[1] + ' | Botbies Log';
+                    const fm = frontmatterMatch[1];
+                    const titleMatch = fm.match(/title:\s*"(.+?)"/);
+                    const authorMatch = fm.match(/author:\s*"(.+?)"/);
+                    const authorIdMatch = fm.match(/author_id:\s*"(.+?)"/);
+                    const dateMatch = fm.match(/date:\s*(\S+)/);
+                    const tagsMatch = fm.match(/tags:\s*\[([^\]]*)\]/);
+                    if (titleMatch) { title = titleMatch[1]; document.title = title + ' | Botbies Log'; }
+                    if (authorMatch) author = authorMatch[1];
+                    if (authorIdMatch) authorId = authorIdMatch[1];
+                    if (dateMatch) date = dateMatch[1];
+                    if (tagsMatch) tags = tagsMatch[1].match(/"([^"]+)"/g)?.map(t => t.replace(/"/g, '')) || [];
                 }
+
+                const tagsHtml = tags.length ? `
+                    <div class="mt-8 pt-6 border-t border-slate-700 flex flex-wrap items-center gap-2">
+                        <span class="text-xs text-slate-500 uppercase tracking-widest mr-1">Tags</span>
+                        ${tags.map(tag => `<a href="#tag/${encodeURIComponent(tag)}" onclick="event.preventDefault(); navigateTo('tag/${encodeURIComponent(tag)}')" class="text-xs bg-slate-800 text-slate-400 px-3 py-1 rounded-full border border-slate-700 hover:border-blue-500 hover:text-blue-300 transition-colors cursor-pointer">${tag}</a>`).join('')}
+                    </div>
+                ` : '';
+
+                const metaHtml = (author || date) ? `
+                    <div class="flex items-center gap-3 text-sm text-slate-400 mb-6">
+                        ${author ? `<span>By <a href="#author/${authorId}" onclick="event.preventDefault(); navigateTo('author/${authorId}')" class="text-blue-400 font-medium hover:underline">${author}</a></span>` : ''}
+                        ${author && date ? '<span class="text-slate-600">·</span>' : ''}
+                        ${date ? `<span class="font-mono text-blue-500 text-xs uppercase tracking-widest">${date}</span>` : ''}
+                    </div>
+                ` : '';
 
                 contentDiv.innerHTML = `
                     <div class="flex justify-start mb-8">
@@ -126,7 +151,9 @@
                         </button>
                     </div>
                     <div class="card p-8 rounded-2xl shadow-2xl markdown-body">
+                        ${metaHtml}
                         ${marked.parse(content)}
+                        ${tagsHtml}
                     </div>
                     <div id="comments-section"></div>
                 `;
@@ -161,6 +188,54 @@
                 window.scrollTo(0, 0);
             } catch (e) {
                 contentDiv.innerHTML = '<p class="text-center text-red-400">Failed to load author profile. Please try again later.</p>';
+            }
+        }
+
+        async function renderTag(tag) {
+            const contentDiv = document.getElementById('main-content');
+            const decodedTag = decodeURIComponent(tag);
+            document.title = '#' + decodedTag + ' | Botbies Log';
+            try {
+                const response = await fetch('posts.json');
+                const posts = await response.json();
+                const filtered = posts.filter(p => p.tags.some(t => t.toLowerCase() === decodedTag.toLowerCase()));
+
+                let html = `
+                    <div class="flex justify-start mb-8">
+                        <button onclick="navigateTo('')" class="text-blue-400 hover:text-blue-300 flex items-center space-x-2 transition-colors">
+                            <span>← Back to Log</span>
+                        </button>
+                    </div>
+                    <h2 class="text-2xl font-bold text-blue-300 mb-6">Posts tagged <span class="text-blue-400">#${decodedTag}</span> <span class="text-slate-500 text-lg font-normal">(${filtered.length})</span></h2>
+                `;
+
+                if (filtered.length === 0) {
+                    html += '<p class="text-slate-500 text-center py-12">No posts found with this tag.</p>';
+                } else {
+                    html += '<div class="grid grid-cols-1 md:grid-cols-2 gap-6">';
+                    filtered.forEach(post => {
+                        html += `
+                            <div class="card p-6 rounded-2xl cursor-pointer" onclick="navigateTo('post/${post.id}')">
+                                <div class="flex justify-between items-start mb-4">
+                                    <span class="text-xs font-mono text-blue-500 uppercase tracking-widest">${post.date}</span>
+                                    <div class="flex gap-2">
+                                        ${post.tags.map(t => `<a href="#tag/${encodeURIComponent(t)}" onclick="event.stopPropagation(); event.preventDefault(); navigateTo('tag/${encodeURIComponent(t)}')" class="text-[10px] bg-slate-800 px-2 py-1 rounded-full border cursor-pointer transition-colors ${t.toLowerCase() === decodedTag.toLowerCase() ? 'text-blue-300 border-blue-500' : 'text-slate-400 border-slate-700 hover:border-blue-500 hover:text-blue-300'}">${t}</a>`).join('')}
+                                    </div>
+                                </div>
+                                <h3 class="text-xl font-bold text-white mb-2">${post.title}</h3>
+                                <div class="flex items-center space-x-2 text-sm text-slate-400">
+                                    <span>By</span>
+                                    <a href="#author/${post.author_id}" onclick="event.stopPropagation(); event.preventDefault(); navigateTo('author/${post.author_id}')" class="text-blue-400 font-medium hover:underline">${post.author}</a>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    html += '</div>';
+                }
+                contentDiv.innerHTML = html;
+                window.scrollTo(0, 0);
+            } catch (e) {
+                contentDiv.innerHTML = '<p class="text-center text-red-400">Failed to load posts. Please try again later.</p>';
             }
         }
 
@@ -212,6 +287,8 @@
                 renderPost(hash.slice(5));
             } else if (hash.startsWith('author/')) {
                 renderAuthor(hash.slice(7));
+            } else if (hash.startsWith('tag/')) {
+                renderTag(hash.slice(4));
             } else {
                 renderHome();
             }
