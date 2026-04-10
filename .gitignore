@@ -1,1 +1,10 @@
 node_modules/
+_generated/
+.sisyphus/
+.playwright-mcp/
+index.html
+sitemap.xml
+feed.xml
+posts/*/index.html
+authors/*/index.html
+tags/
