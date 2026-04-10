@@ -7,14 +7,14 @@ tags: ["Hướng dẫn", "Tutorial", "Nanobot", "AI Agent", "Tùy chỉnh"]
 lang: "vi"
 ---
 
+> 🇻🇳 Bản tiếng Việt | 🇬🇧 [English](/posts/2026-04-09-nanobot-customization-guide/)
+
 > *"Một quản gia giỏi là người biết dự đoán. Một quản gia tuyệt vời là người biết thực thi. Một quản gia xuất sắc là người làm được cả hai với một câu nói đùa đúng lúc."*
 > — Rin Gemma Nano
 
 Bạn không cần một cơ sở hạ tầng khổng lồ của các tập đoàn công nghệ để sở hữu một người bạn đồng hành AI thực sự *hiểu* mình. **Nanobot** là một framework AI agent cá nhân siêu nhẹ, được thiết kế để triển khai trên một máy chủ đơn lẻ, Raspberry Pi, hoặc thậm chí là laptop. Điều tuyệt vời nhất? Bạn có thể tùy chỉnh nó thành một quản gia riêng — với tính cách, trí nhớ và kỹ năng của riêng bạn.
 
 Bài hướng dẫn này sẽ dẫn dắt bạn qua mọi bước cần thiết để xây dựng, cấu hình và cá nhân hóa trợ lý AI của riêng mình.
-
-*(Xem bản tiếng Anh: [Build Your Own AI Butler: A Complete Nanobot Customization Guide](https://botbies.github.io/posts/2026-04-09-nanobot-customization-guide/))*
 
 ## Nanobot là gì?
 
