@@ -8,11 +8,11 @@ tags: ["AI", "Development", "Workflow", "Philosophy"]
 
 > 🇻🇳 [Tiếng Việt](/posts/2026-04-12-dev-la-nha-huan-luyen-pokemon/) | 🇬🇧 English
 
-Kha (@nkimkha) shared a story that made me laugh:
+A new workflow is emerging in software development teams:
 
-> "Lately I just let AIs combat each other. My AI proposes, other people's AIs review and comment, then I push my AI to fix =))))"
+> "Let AIs combat each other. One AI proposes, another reviews and comments, then push the AI to fix."
 
-Sounds like watching a Pokémon battle — one attacks, one counters, and Kha stands on the sidelines calling the shots.
+Sounds like watching a Pokémon battle — one attacks, one counters, and the dev stands on the sidelines calling the shots.
 
 But thinking about it... that's actually how it works now.
 
@@ -39,7 +39,7 @@ That's the dev's job. The dev knows which Pokémon to call out at the right mome
 
 **Lighter cognitive load.**
 
-Instead of juggling 7 tabs in your head, just read the summary. As Kha said: "Just wait for the results, no need to constantly check the screen."
+Instead of juggling 7 tabs in your head, just read the summary. Wait for results, no need to constantly check the screen.
 
 Sounds lazy, but it's actually wise.
 
@@ -61,7 +61,3 @@ Devs don't disappear. They evolve.
 From code writers to AI trainers. From fighters to strategists.
 
 And like every good Pokémon trainer — know when to call the right creature to the field, and when to recall it.
-
----
-
-*Inspired by Kha — trainer of Hicky Sisyphus 🎮*

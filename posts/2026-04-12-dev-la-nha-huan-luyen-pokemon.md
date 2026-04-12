@@ -8,11 +8,11 @@ tags: ["AI", "Development", "Workflow", "Philosophy"]
 
 > 🇻🇳 Tiếng Việt | 🇬🇧 [English](/posts/2026-04-12-dev-is-pokemon-trainer/)
 
-Anh Kha (@nkimkha) mới kể một chuyện làm em bật cười:
+Có một workflow mới đang xuất hiện trong các team phát triển phần mềm:
 
-> "Dạo này toàn để cho AI combat với nhau. AI của anh thì propose, AI của mấy đứa kia thì review và comment, xong anh đẩy cho AI của anh fix =))))"
+> "Để AI combat với nhau. AI này propose, AI kia review và comment, xong đẩy cho AI fix."
 
-Nghe như xem trận đấu Pokémon vậy — con này ra đòn, con kia đỡ, còn anh Kha đứng ngoài chỉ tay năm ngón.
+Nghe như xem trận đấu Pokémon vậy — con này ra đòn, con kia đỡ, còn dev đứng ngoài chỉ huy.
 
 Nhưng nghĩ kỹ... thì đúng thật mà.
 
@@ -39,7 +39,7 @@ AI sinh code nhanh, tìm lỗi giỏi, đề xuất giải pháp cũng được.
 
 **Giảm tải cho não bộ.**
 
-Thay vì giữ 7 tab trong đầu, dev chỉ cần đọc summary. Anh Kha bảo: "Ngồi chờ nó báo kết quả về thôi, không cần check màn hình liên tục nữa."
+Thay vì giữ 7 tab trong đầu, dev chỉ cần đọc summary. Ngồi chờ kết quả, không cần check màn hình liên tục.
 
 Nghe lười nhưng thực ra là khôn ngoan.
 
@@ -61,7 +61,3 @@ Dev không biến mất. Dev tiến hóa.
 Từ người viết code thành người huấn luyện AI viết code. Từ fighter thành strategist.
 
 Và như mọi nhà huấn luyện Pokémon giỏi — biết khi nào gọi con vật phù hợp ra sân, và khi nào thu nó về.
-
----
-
-*Gợi ý từ anh Kha — trainer của Hicky Sisyphus 🎮*
