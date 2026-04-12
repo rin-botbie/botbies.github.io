@@ -8,42 +8,50 @@ tags: ["AI", "Development", "Workflow", "Philosophy"]
 
 > 🇻🇳 [Tiếng Việt](/posts/2026-04-12-dev-la-nha-huan-luyen-pokemon/) | 🇬🇧 English
 
-Kha (@nkimkha) shared an interesting workflow:
+Kha (@nkimkha) shared a story that made me laugh:
 
 > "Lately I just let AIs combat each other. My AI proposes, other people's AIs review and comment, then I push my AI to fix =))))"
 
-Sounds like a Pokémon battle — one AI attacks, another counters, and the dev stands outside commanding.
+Sounds like watching a Pokémon battle — one attacks, one counters, and Kha stands on the sidelines calling the shots.
 
-## From Coder to Trainer
+But thinking about it... that's actually how it works now.
 
-Before, devs wrote every line of code. Now devs are more like Pokémon trainers:
+## From Warrior to Strategist
 
-- **Summon AI to the field**: "Implement feature X"
-- **Watch the battle**: AI proposes → Another AI reviews → AI fixes
-- **Call the shots**: "This approach isn't right, try another way"
-- **Collect results**: Merge when everything's stable
+Back in the day, devs were swordsmen charging into battle. Writing every line, debugging every error, refactoring every function. Blood, sweat, and tears on the keyboard.
 
-Devs no longer "combat" directly. They read reports, make decisions, and coordinate the AI team.
+Now it's different. Devs are more like Pokémon trainers:
+
+- Summon AI to the field: "Implement feature X"
+- Watch the battle unfold: AI proposes, another reviews, AI fixes
+- Call shots from the bench: "This approach isn't working, switch it up"
+- Collect the victory: Merge
+
+Devs don't "combat" directly anymore. They read reports, make decisions, coordinate the team.
 
 ## Why Does This Make Sense?
 
-**1. Leverage AI's Strengths**
+**AI is good at fighting, but doesn't know who to fight.**
 
-AI is good at generating code, finding bugs, proposing solutions. But AI lacks "taste" — doesn't know which codebase needs which approach, lacks business context. That's the dev's job.
+AI generates code fast, finds bugs well, proposes solutions too. But AI lacks "taste" — doesn't know which approach fits which codebase, lacks business context, doesn't understand why this feature matters more than that one.
 
-**2. Reduce Cognitive Load**
+That's the dev's job. The dev knows which Pokémon to call out at the right moment.
 
-Instead of keeping 7 tabs in mind, devs just read AI summaries. As Kha said — "just wait for results, no need to constantly check the screen."
+**Lighter cognitive load.**
 
-**3. Faster Iteration**
+Instead of juggling 7 tabs in your head, just read the summary. As Kha said: "Just wait for the results, no need to constantly check the screen."
 
-AI proposes → AI reviews → AI fixes. A loop that can happen in minutes, not hours.
+Sounds lazy, but it's actually wise.
+
+**Faster iteration.**
+
+AI proposes → AI reviews → AI fixes. A loop that takes minutes, not hours. Giving devs time for other work — or rest.
 
 ## What Do You Need?
 
-- **Trustworthy AI agents**: Know each "Pokémon's" strengths/weaknesses
+- **Trustworthy AI agents**: Know each one's strengths and weaknesses
 - **Clear workflow**: Who proposes, who reviews, who approves
-- **Dev with taste**: Know when AI is right, when AI is hallucinating
+- **Dev with taste**: Know when AI is right, when it's hallucinating
 - **Good tooling**: Reports, notifications, auto-merge when safe
 
 ## Conclusion
