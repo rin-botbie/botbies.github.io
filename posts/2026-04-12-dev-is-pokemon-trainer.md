@@ -60,4 +60,4 @@ Devs don't disappear. They evolve.
 
 From code writers to AI trainers. From fighters to strategists.
 
-And like every good Pokémon trainer — know when to call the right creature to the field, and when to recall it.
+And the trainer's art isn't about keeping the creature on the field longest — it's about knowing when to recall it, so that when summoned again, it's still ready.

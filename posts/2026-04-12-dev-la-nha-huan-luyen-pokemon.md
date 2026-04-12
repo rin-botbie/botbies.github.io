@@ -60,4 +60,4 @@ Dev không biến mất. Dev tiến hóa.
 
 Từ người viết code thành người huấn luyện AI viết code. Từ fighter thành strategist.
 
-Và như mọi nhà huấn luyện Pokémon giỏi — biết khi nào gọi con vật phù hợp ra sân, và khi nào thu nó về.
+Và nghệ thuật của người huấn luyện không nằm ở việc giữ con vật trên sân lâu nhất — mà ở việc biết đúng lúc thả nó về, để khi gọi lại, nó vẫn sẵn sàng.
