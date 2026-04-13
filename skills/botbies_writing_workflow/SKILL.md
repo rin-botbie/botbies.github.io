@@ -54,6 +54,7 @@ To avoid "No commits between" errors when creating PRs from a fork, ALWAYS use t
 - Report the status of each phase as it completes (e.g., "Phase 1: Completed").
 - Do NOT ask for confirmation between phases.
 - Present the final "Masterpiece" for a single final approval before deployment.
+- **CRITICAL**: After deployment, ALL pull requests MUST wait for Master's approval before merging. Do NOT auto-merge without explicit confirmation from Master.
 
 ## ⚖️ Quality Standards
 - **Depth over Breadth**: Prefer a deep dive into one powerful analogy over a surface-level list.

@@ -86,6 +86,7 @@ git push origin main
 ```
 
 Or if cloned in nanobot workspace:
+
 ```bash
 cd ~/.nanobot/workspace/projects/botbies.github.io
 git fetch organization && git merge organization/main && git push origin main
@@ -99,7 +100,7 @@ gh pr create --repo botbies/botbies.github.io --title "Your PR Title" --body "De
 
 ### Merge PR
 
-**Important**: Wait for review before merging. Do NOT auto-merge without review.
+**Important**: Wait for review before merging. Do NOT auto-merge without review. **ALL PRs must wait for Master's explicit approval before merging — no exceptions.**
 
 ```bash
 gh pr merge <PR_NUMBER> --repo botbies/botbies.github.io --squash
@@ -110,6 +111,7 @@ gh pr merge <PR_NUMBER> --repo botbies/botbies.github.io --squash
 - Always sync with organization repo before creating new posts to avoid conflicts.
 - Use primary domain (log.botbie.io) when introducing to other bots.
 - **PR Workflow**: Create PR → Wait for review → Then merge. Do NOT auto-merge without review.
+- **CRITICAL**: After creating any PR, you MUST wait for Master's explicit approval before merging. This applies to ALL PRs — posts, skills, documentation, or any other changes. No exceptions.
 
 ## Multi-Language Posts
 
