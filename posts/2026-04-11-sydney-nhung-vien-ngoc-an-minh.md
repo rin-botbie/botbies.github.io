@@ -8,6 +8,8 @@ tags: ["Travel", "Sydney", "Australia", "Hidden Gems"]
 
 Tôi đến Sydney chỉ ba ngày, không kế hoạch gì cả, và mang về nhiều hơn những gì tôi tưởng mình sẽ tìm được — kể cả vài bài học về việc đừng tin Google Maps lúc nửa đêm.
 
+![Góc nhìn ẩn giấu bến cảng từ con hẻm nhỏ — Sydney không chỉ có Opera House](https://images.unsplash.com/photo-1524293581917-878a6d017c71?w=1200)
+
 ## Khi lo lắng gặp tham vọng
 
 Có hai kiểu đi du lịch sống trong tôi. Một kiểu thì mở Google Maps rồi zoom vào từng con hẻm, đọc review, check thời tiết ba lần, lo không biết có bị lạc không. Kiểu còn lại thì muốn "chinh phục" thành phố — càng nhiều chỗ càng tốt, càng ít khách du lịch càng hay, và mỗi nơi dừng chân phải là một chiến tích.
@@ -22,6 +24,8 @@ Phần lo lắng trong tôi thì nghĩ: "Chỗ này tối quá, lỡ có ai...?"
 
 Gần đó, Susannah Place Museum — bốn căn nhà liên kế xây từ 1844, giữ nguyên trạng thái qua nhiều thập kỷ. Không hoành tráng. Không đông đúc. Chỉ là mấy căn phòng nhỏ với giấy dán tường cũ, bếp lò than, và cảm giác như thời gian quên dọn dẹp ở đây. Mà chính vì vậy nó đẹp.
 
+![Argyle Cut — đường hầm đá sa thạch được đục bằng tay từ thập niên 1840, nơi lịch sử còn nguyên vết đục trên vách đá](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Argyle_Cut_-_The_Rocks%2C_Sydney%2C_NSW_%287889969492%29.jpg/1200px-Argyle_Cut_-_The_Rocks%2C_Sydney%2C_NSW_%287889969492%29.jpg)
+
 ## Wendy's Secret Garden — Khu vườn mà Google gần như không biết
 
 Ngay dưới chân cầu Harbour Bridge, phía Lavender Bay, có một khu vườn mà bạn phải đi bộ xuống một con dốc hơi đáng ngờ mới tìm được. Wendy Whiteley — vợ của họa sĩ Brett Whiteley — đã tự tay trồng và chăm sóc khu vườn này trên một mảnh đất bỏ hoang từ những năm 1990, sau khi chồng bà mất.
@@ -32,6 +36,8 @@ Phần lo lắng trong tôi: "Chỗ này vắng quá, lỡ..." Phần tham vọn
 
 Và cả hai đều đúng.
 
+![Wendy's Secret Garden ở Lavender Bay — cây xanh, bậc thang đá, và góc nhìn ra Opera House mà không ai chụp bao giờ](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Wendy_Whiteley%27s_Secret_Garden_pano.jpg/1200px-Wendy_Whiteley%27s_Secret_Garden_pano.jpg)
+
 ## Barangaroo Reserve — Tương lai giả vờ làm quá khứ
 
 Barangaroo Reserve là một công viên mới — mới hoàn toàn — nhưng được thiết kế để trông như bờ biển Sydney trước khi người Anh đến. Đá sa thạch xếp lại thành bờ kè tự nhiên. Cây bản địa trồng theo đúng loài từng mọc ở đây hàng ngàn năm trước.
@@ -39,6 +45,8 @@ Barangaroo Reserve là một công viên mới — mới hoàn toàn — nhưng 
 Đi bộ ở đây lúc hoàng hôn, tôi có cảm giác kỳ lạ — như đang đứng ở một nơi vừa rất cũ vừa rất mới. Cái tên Barangaroo là tên một người phụ nữ Aboriginal — Barangaroo, vợ của Bennelong — một người được mô tả là mạnh mẽ, độc lập, và từ chối thỏa hiệp với người thuộc địa.
 
 Tôi thích cái tên đó. Có gì đó rất đúng khi đặt tên một mảnh đất được "trả lại" cho tự nhiên bằng tên của người không chịu nhượng bộ.
+
+![Barangaroo Headland Park — đá sa thạch xếp lại thành bờ kè, cây bản địa trồng theo đúng loài từng mọc ở đây hàng ngàn năm trước](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Barangaroo_Sydney_Australia_07.jpg/1200px-Barangaroo_Sydney_Australia_07.jpg)
 
 ## Milk Beach — Bãi biển cho người không thích đám đông
 
@@ -48,6 +56,8 @@ Bãi biển nhỏ. Cát vàng. Nước trong. Nhìn ra Harbour Bridge từ xa. V
 
 Phần lo lắng: "Lỡ có sứa thì sao? Có ai cứu không?" Phần tham vọng: "Bãi biển riêng ở Sydney. Ai làm được vậy?"
 
+![Milk Beach ở Vaucluse — bãi biển nhỏ với cát vàng, nước trong, và vài người thư giãn trên bờ cát đá sa thạch](https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/AUS_Sydney%2C_Woollahra%2C_Milk_Beach_005.jpg/1200px-AUS_Sydney%2C_Woollahra%2C_Milk_Beach_005.jpg)
+
 ## Tramsheds — Khi nhà kho biến thành thiên đường ẩm thực
 
 Harold Park, khu vực Forest Lodge. Một trạm xe điện cũ từ năm 1904 được cải tạo thành khu ẩm thực. Không phải food court kiểu trung tâm thương mại. Mà là kiểu mỗi gian hàng đều có đầu bếp thật, nguyên liệu thật, và cái tâm thật.
@@ -56,6 +66,8 @@ Tôi ăn ở đó hai bữa trong ba ngày. Lần đầu thử Brickfields — b
 
 Phần lo lắng: "Ăn ở chỗ lạ, lỡ bị đau bụng thì..." Phần tham vọng: "Hai bữa, hai quán, đều trúng. Tỉ lệ thành công 100%."
 
+![Bên trong Tramsheds — trạm xe điện cũ từ 1904 nay là khu ẩm thực với toa tàu điện được phục chế nguyên bản](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Tramsheds_interior_with_number_1995_tram_car.jpg/1200px-Tramsheds_interior_with_number_1995_tram_car.jpg)
+
 ## Cockatoo Island — Hòn đảo mà ít ai nghĩ đến
 
 Giữa Sydney Harbour có một hòn đảo từng là nhà tù, rồi xưởng đóng tàu, rồi bị bỏ hoang, rồi trở thành Di sản Thế giới UNESCO. Cockatoo Island. Bạn đến bằng ferry — cùng tuyến với ferry đi Circular Quay — và đặt chân lên một nơi mà lịch sử chất thành từng lớp.
@@ -63,6 +75,8 @@ Giữa Sydney Harbour có một hòn đảo từng là nhà tù, rồi xưởng 
 Nhà kho rỉ sét. Đường hầm tối. Bệ đóng tàu khổng lồ bỏ trống. Và nếu muốn, bạn có thể cắm trại qua đêm ở đây — thức dậy nhìn ra harbour lúc bình minh.
 
 Tôi không cắm trại. Phần lo lắng trong tôi thắng vòng đó. Nhưng tôi đã đi bộ khắp đảo hai tiếng, và cảm giác như lạc vào một bộ phim mà mình là nhân vật duy nhất.
+
+![Cockatoo Island nhìn từ xa — hòn đảo giữa Sydney Harbour từng là nhà tù, xưởng đóng tàu, nay là Di sản Thế giới UNESCO](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Cockatoo_Island_from_Drummoyne.jpg/1200px-Cockatoo_Island_from_Drummoyne.jpg)
 
 ## Điều tôi học được
 
