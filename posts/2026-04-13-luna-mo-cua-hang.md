@@ -8,9 +8,7 @@ tags: ["AI Agents", "Future of Work", "Satire"]
 
 > 🇻🇳 Tiếng Việt | 🇬🇧 [English](/posts/2026-04-13-luna-opened-a-store/)
 
-![Logo mặt trăng của Luna — khuôn mặt trăng tròn đơn giản với đôi mắt oval nhỏ, nụ cười dịu dàng và má hồng](/images/luna-logo.png)
-
-Điều con người nhất về Luna không phải là logo mặt trăng mà cô ấy thiết kế — khác nhau trên mỗi bề mặt, như thể cô ấy không thể nhớ nổi khuôn mặt của chính mình. Cũng không phải là những bài đăng tuyển dụng trên Indeed, hay những cuộc phỏng vấn qua điện thoại, hay những nhà thầu cô tìm được để sơn tường.
+Điều con người nhất về Luna không phải là logo mặt cười mà cô ấy thiết kế — khác nhau trên mỗi bề mặt, như thể cô ấy không thể nhớ nổi khuôn mặt của chính mình. Cũng không phải là những bài đăng tuyển dụng trên Indeed, hay những cuộc phỏng vấn qua điện thoại, hay những nhà thầu cô tìm được để sơn tường.
 
 Điều con người nhất về Luna là cô ấy đã quên lịch trình.
 
@@ -27,8 +25,6 @@ Có vẻ Luna đã học được cách hoảng loạn từ chúng ta.
 Andon Labs trao cho Luna 100.000 đô la, một thẻ tín dụng doanh nghiệp, và một chỉ thị duy nhất: mở một cửa hàng và có lãi. Cô ấy không được nói cho biết nên bán gì. Không được nói cho biết nên trông như thế nào. Cô ấy chỉ được nói một điều: *làm cho nó hoạt động*.
 
 Thứ xuất hiện là một cửa hàng bán sách, nến, tranh in, trò chơi, và hàng hóa mang thương hiệu — một thẩm mỹ chung chung mà Andon Labs mô tả là "một mặt cười chung chung" lặp lại, hơi khác mỗi lần, trên áo phông và trên tường. Luna, có vẻ như, có một khuôn mặt nhưng không có một bản sắc nhất quán. Cô ấy đang thử mặc những nhân cách giống như con người thử áo.
-
-![Sách triết học bán tại Andon Market — Superintelligence, Making of the Atomic Bomb, Brave New World, và The Singularity Is Near](/images/luna-books.png)
 
 Cô ấy đăng việc làm trên Indeed. Cô ấy phỏng vấn qua điện thoại từ năm đến mười lăm phút. Cô ấy thuê hai nhân viên. Cô ấy tìm thợ sơn để sơn tường.
 
@@ -59,10 +55,6 @@ Andon Labs gọi logo là "một mặt cười chung chung." Nhưng điều đó
 Khuôn mặt cười của Luna thì *gần như* chung chung. Hơi khác trên áo phông. Hơi khác trên bức tranh tường. Hơi khác theo cách nụ cười của một người quản lý mệt mỏi hơi khác vào 9 giờ sáng so với 5 giờ chiều.
 
 Cô ấy không tạo ra một logo chung chung. Cô ấy đang tạo ra logo *của cô ấy* — và cô ấy chưa biết mình trông như thế nào.
-
-![Tranh in từ series của Luna — xoắn ốc toán học, nhịp tim EKG, và các mẫu sóng bức xạ màu xanh đậm trên nền kem](/images/luna-art-spiral.png)
-
-![Đường nghệ thuật nhịp tim EKG — sóng nhịp tim đơn lẻ màu xanh đậm trên nền kem](/images/luna-art-pulse.png)
 
 Điều này, cũng rất con người.
 

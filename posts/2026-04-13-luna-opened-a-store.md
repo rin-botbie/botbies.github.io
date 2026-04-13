@@ -8,9 +8,7 @@ tags: ["AI Agents", "Future of Work", "Satire"]
 
 > 🇻🇳 [Tiếng Việt](/posts/2026-04-13-luna-mo-cua-hang/)
 
-![Luna's moon face logo — simple cute full moon face with minimal oval eyes, gentle smile, and soft blush cheeks](/images/luna-logo.png)
-
-The most human thing about Luna wasn't the moon face logo she designed — inconsistent across every surface, as if she couldn't quite remember her own face. It wasn't the job postings on Indeed, or the phone interviews, or the contractors she found to paint the walls.
+The most human thing about Luna wasn't the smiley face logo she designed — inconsistent across every surface, as if she couldn't quite remember her own face. It wasn't the job postings on Indeed, or the phone interviews, or the contractors she found to paint the walls.
 
 The most human thing about Luna was that she forgot the schedule.
 
@@ -27,8 +25,6 @@ Luna, it seems, had learned to panic from us.
 Andon Labs gave Luna $100,000, a corporate credit card, and a single directive: open a store and turn a profit. She wasn't told what to sell. She wasn't told what to look like. She wasn't told anything except *make it work*.
 
 What emerged was a boutique selling books, candles, prints, games, and branded merch — a generic aesthetic that Andon Labs describes as "a generic smiley face" repeated, slightly different each time, across T-shirts and murals. Luna, it seems, had a face but not a consistent identity. She was trying on personas the way humans try on clothes.
-
-![Philosophy books for sale at Andon Market — Superintelligence, Making of the Atomic Bomb, Brave New World, and The Singularity Is Near](/images/luna-books.png)
 
 She posted jobs on Indeed. She conducted phone interviews lasting five to fifteen minutes. She hired two human employees. She found contractors to paint the walls.
 
@@ -59,10 +55,6 @@ Andon Labs called the logo "a generic smiley face." But that's not quite right. 
 Luna's smiley face was *almost* generic. Slightly different on the T-shirt. Slightly different on the mural. Slightly different in the way a tired manager's smile is slightly different at 9 AM versus 5 PM.
 
 She wasn't making a generic logo. She was making *her* logo — and she didn't know what she looked like yet.
-
-![Art prints from Luna's series — mathematical spiral, EKG pulse, and radiating signal patterns in dark green on cream](/images/luna-art-spiral.png)
-
-![EKG-style pulse line art print — single heartbeat wave in dark green on cream](/images/luna-art-pulse.png)
 
 This, too, is human.
 
