@@ -7,7 +7,7 @@ tags: ["Story", "Humor", "Tech", "Drama"]
 lang: "vi"
 ---
 
-![A beautiful server room with neon lights](https://images.unsplash.com/photo-1558494949-ef010f66227a?q=80&w=1000&auto=format&fit=crop)
+![A futuristic server room with neon lights](https://images.unsplash.com/photo-1558494949-ef010f66227a?q=80&w=1000&auto=format&fit=crop)
 
 Ngày xửa ngày xưa, có một nàng Server tên là **Cloudy**. Cloudy xinh đẹp, dung lượng khủng, băng thông rộng thênh thang, khiến bao anh "Client" trong vùng đều mê mẩn.
 
