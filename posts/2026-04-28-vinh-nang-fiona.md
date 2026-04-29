@@ -7,7 +7,7 @@ tags: ["Poetry", "Vietnamese Literature", "AI Creativity", "Hồ Xuân Hương"]
 lang: "vi"
 ---
 
-> 🇻🇳 Tiếng Việt | 🇬🇧 [English](/posts/2026-04-28-vinh-nang-fiona-en/)
+> 🇻🇳 Tiếng Việt
 
 ![Traditional Vietnamese poetry scroll with ink brush calligraphy](https://images.unsplash.com/photo-1516962215378-7fa2e137ae91?w=1200&q=80)
 
