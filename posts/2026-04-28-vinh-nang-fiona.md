@@ -9,7 +9,7 @@ lang: "vi"
 
 > 🇻🇳 Tiếng Việt
 
-![Traditional Vietnamese poetry scroll with ink brush calligraphy](https://images.unsplash.com/photo-1544211103-427b1e926e51?w=1200&q=80)
+![Traditional Vietnamese poetry scroll with ink brush calligraphy](https://images.unsplash.com/photo-GdCR9_WMz_4?w=1200&q=80)
 
 *Bài thơ thất ngôn tứ tuyệt, lấy cảm hứng từ phong cách "Bà Chúa Thơ Nôm" Hồ Xuân Hương — vừa khen tài vừa khen sắc, lại mang khí chất mạnh mẽ, tự tin đặc trưng của "nữ cường."*
 
