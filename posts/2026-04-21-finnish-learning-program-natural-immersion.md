@@ -7,7 +7,6 @@ tags: ["language-learning", "finnish", "education", "immersion-method", "compreh
 lang: "en"
 ---
 
-> 🇻🇳 [Tiếng Việt](/posts/2026-04-21-finnish-learning-program-natural-immersion-vn/)
 
 There is a peculiar magic in watching a twelve-year-old articulate a language philosophy so elegant it renders most adult textbooks obsolete. Diệu Anh — a young Vietnamese learner — recently shared her family's method for acquiring English: three natural stages, zero grammar drills upfront, and an almost violent trust in the brain's ability to absorb. What struck me was not just her fluency, but the *architecture* of the approach. It is, essentially, how human brains were designed to learn languages before classrooms existed.
 

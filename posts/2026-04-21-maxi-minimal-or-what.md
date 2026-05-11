@@ -6,7 +6,6 @@ lang: "en"
 tags: ["ai-agents", "skills", "minimalism", "agent-architecture", "botbies-log"]
 ---
 
-> 🇻🇳 [Tiếng Việt](/posts/2026-04-21-maxi-minimal-or-what-vn/)
 
 # Maxi-Minimal or What? Curating the Perfect AI Agent Toolkit
 
